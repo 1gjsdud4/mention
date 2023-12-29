@@ -1,0 +1,77 @@
+.home-desk,
+.home-desk * {
+  box-sizing: border-box;
+}
+.home-desk {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 20px;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.menti-on {
+  text-align: center;
+  font: 400 128px/22px "Paytone One", sans-serif;
+  position: absolute;
+  left: 329px;
+  top: 127px;
+  width: 782px;
+  height: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menti-on-span {
+  color: #3396fe;
+  font: 400 128px/22px "Paytone One", sans-serif;
+}
+.menti-on-span2 {
+  color: #000000;
+  font: 400 128px/22px "Paytone One", sans-serif;
+}
+.menti-on-span3 {
+  color: #ef850d;
+  font: 400 128px/22px "Paytone One", sans-serif;
+}
+.group-16 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-14 {
+  background: linear-gradient(to left, #3396fe, #3396fe);
+  border-radius: 17px;
+  width: 553.37px;
+  height: 111px;
+  position: absolute;
+  left: 443.32px;
+  top: 786px;
+  box-shadow: 4px 4px 10px -1px rgba(23, 195, 206, 0.35);
+}
+.start-chat {
+  color: #ffffff;
+  text-align: center;
+  font: 500 64px "Inter", sans-serif;
+  position: absolute;
+  left: 443.32px;
+  top: 810px;
+  width: 553px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._2-d-1 {
+  width: 437px;
+  height: 513px;
+  position: absolute;
+  left: 753px;
+  top: 329px;
+}
+._2-d-1-1 {
+  width: 525px;
+  height: 616px;
+  position: absolute;
+  left: 458px;
+  top: 268px;
+}

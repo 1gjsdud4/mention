@@ -1,0 +1,453 @@
+<html>
+    <head>
+
+    </head>
+<body>    
+    
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chatview1.css') }}">    
+<div class="chat-board-1-desk">
+    
+    <div class="navbar">
+        <div class="chat">
+            <div class="messages">
+                <svg
+                    class="group"
+                    width="37"
+                    height="37"
+                    viewBox="0 0 37 37"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                  d="M36.248 11.2124V20.1882C36.248 20.7716 36.2255 21.3326 36.1582 21.8712C35.6421 27.9298 32.0742 30.9367 25.4994 30.9367H24.6019C24.0409 30.9367 23.5023 31.206 23.1657 31.6547L20.473 35.2451C19.2837 36.8383 17.3539 36.8383 16.1646 35.2451L13.4718 31.6547C13.1801 31.2733 12.5294 30.9367 12.0357 30.9367H11.1382C3.97998 30.9367 0.389648 29.164 0.389648 20.1882V11.2124C0.389648 4.63763 3.419 1.06975 9.45522 0.553644C9.99376 0.486326 10.5548 0.463867 11.1382 0.463867H25.4994C32.6576 0.463867 36.248 4.0542 36.248 11.2124Z"
+                  fill="#3396FE"
+                  stroke="#3396FE"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                </svg>
+      
+                <svg
+                    class="vector2"
+                    width="37"
+                    height="31"
+                    viewBox="0 0 37 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                  d="M36.2234 11.2364V20.2122C36.2234 26.8094 33.1941 30.3549 27.1578 30.871C27.2252 30.3324 27.2476 29.7715 27.2476 29.188V20.2122C27.2476 13.054 23.6573 9.46371 16.4991 9.46371H2.13783C1.5544 9.46371 0.993412 9.48617 0.454865 9.55349C0.970973 3.51726 4.53885 0.487915 11.1136 0.487915H25.4749C32.6331 0.487915 36.2234 4.07825 36.2234 11.2364Z"
+                  stroke="#3396FE"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                </svg>
+      
+                <svg class="vector3"></svg>
+      
+                <svg
+                    class="vector4"
+                    width="3"
+                    height="3"
+                    viewBox="0 0 3 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                <g filter="url(#filter0_d_1_157)">
+                    <path
+                        d="M1.18491 1.7322H1.2051"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        shape-rendering="crispEdges"
+                    />
+                </g>
+                <defs>
+                    <filter
+                        id="filter0_d_1_157"
+                        x="-3.81509"
+                        y="0.732178"
+                        width="10.0202"
+                        height="10"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                    >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_1_157"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_1_157"
+                      result="shape"
+                    />
+                    </filter>
+                </defs>
+            </svg>
+      
+            <svg
+                class="vector5"
+                width="3"
+                height="3"
+                viewBox="0 0 3 3"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <g filter="url(#filter0_d_1_158)">
+                    <path
+                    d="M1.33076 1.7322H1.35096"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    shape-rendering="crispEdges"
+                    />
+                </g>
+                <defs>
+                    <filter
+                        id="filter0_d_1_158"
+                        x="-3.66924"
+                        y="0.732178"
+                        width="10.0202"
+                        height="10"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                    >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_1_158"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_1_158"
+                      result="shape"
+                    />
+                    </filter>
+                </defs>
+            </svg>
+      
+            <svg
+                class="vector6"
+                width="1"
+                viewBox="0 0 1 0"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <g filter="url(#filter0_d_1_159)">
+                  <path
+                    d="M0 0H0.0205876"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    shape-rendering="crispEdges"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_1_159"
+                    x="-5"
+                    y="-1"
+                    width="10.0206"
+                    height="10"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_1_159"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_1_159"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+            </svg>
+
+            <div class="a">대화하기</div>
+
+            <div class="category">
+                <svg
+                  class="element-4"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 50 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M45.8333 22.7088V8.54211C45.8333 5.41711 44.5 4.16711 41.1875 4.16711H32.7708C29.4583 4.16711 28.125 5.41711 28.125 8.54211V22.7088C28.125 25.8338 29.4583 27.0838 32.7708 27.0838H41.1875C44.5 27.0838 45.8333 25.8338 45.8333 22.7088Z"
+                    stroke="#BBBBBB"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M45.8333 41.4579V37.7079C45.8333 34.5829 44.5 33.3329 41.1875 33.3329H32.7708C29.4583 33.3329 28.125 34.5829 28.125 37.7079V41.4579C28.125 44.5829 29.4583 45.8329 32.7708 45.8329H41.1875C44.5 45.8329 45.8333 44.5829 45.8333 41.4579Z"
+                    stroke="#BBBBBB"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M21.8752 27.2921V41.4588C21.8752 44.5838 20.5419 45.8338 17.2294 45.8338H8.81275C5.50025 45.8338 4.16692 44.5838 4.16692 41.4588V27.2921C4.16692 24.1671 5.50025 22.9171 8.81275 22.9171H17.2294C20.5419 22.9171 21.8752 24.1671 21.8752 27.2921Z"
+                    stroke="#BBBBBB"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M21.8752 8.54211V12.2921C21.8752 15.4171 20.5419 16.6671 17.2294 16.6671H8.81275C5.50025 16.6671 4.16692 15.4171 4.16692 12.2921V8.54211C4.16692 5.41711 5.50025 4.16711 8.81275 4.16711H17.2294C20.5419 4.16711 21.8752 5.41711 21.8752 8.54211Z"
+                    stroke="#BBBBBB"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+          
+                <div class="b">메뉴</div>
+            </div>
+            
+            <div class="history">
+                <div class="history2">
+                    <div class="vuesax-linear-archive-add">
+                    <svg
+                      class="archive-add"
+                      width="52"
+                      height="40"
+                      viewBox="0 0 52 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M31.3654 17.7379H20.8731"
+                        stroke="#BBBBBB"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M26.1187 13.6743V22.0021"
+                        stroke="#BBBBBB"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M36.2334 3.33081H16.0043C11.5346 3.33081 7.90424 6.22887 7.90424 9.75984V33.2274C7.90424 36.2254 10.6112 37.4913 13.9268 36.0422L24.1673 31.5286C25.2585 31.0456 27.0212 31.0456 28.0914 31.5286L38.3318 36.0422C41.6474 37.5079 44.3544 36.2421 44.3544 33.2274V9.75984C44.3334 6.22887 40.7031 3.33081 36.2334 3.33081Z"
+                        stroke="#BBBBBB"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    </div>
+          
+                    <div class="c">보관함</div>
+                </div>
+            </div>          
+            </div>
+        </div>
+    </div>
+    <div class="chat-container">
+      <div class="chat-messages">
+          {% for message in messages_me %}
+              <div class="speech-bubble me">{{ message }}</div>
+          {% endfor %}
+          {% for message in gpt_say %}
+              <div class="speech-bubble gpt">{{ message }}</div>
+          {% endfor %}
+      </div>
+  </div>  
+
+    <div class="typing-box" >
+        <div class="j" id="stu_speech">{{ stu_speech }}</div>
+    </div>
+        <div class="vuesax-linear-microphone-2" onclick="submitForm()" >
+          <svg
+            class="microphone-2" 
+            width="83"
+            height="83"
+            viewBox="0 0 83 83"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41.499 53.6039C49.142 53.6039 55.3324 47.4135 55.3324 39.7706V20.7498C55.3324 13.1069 49.142 6.91644 41.499 6.91644C33.8561 6.91644 27.6657 13.1069 27.6657 20.7498V39.7706C27.6657 47.4135 33.8561 53.6039 41.499 53.6039Z"
+              stroke="#3396FE"
+              stroke-width="1.41231"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M15.0443 33.3735V39.2527C15.0443 53.8469 26.9064 65.709 41.5006 65.709C56.0947 65.709 67.9568 53.8469 67.9568 39.2527V33.3735"
+              stroke="#3396FE"
+              stroke-width="1.41231"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M36.6932 22.2377C39.8057 21.0965 43.1948 21.0965 46.3073 22.2377"
+              stroke="#3396FE"
+              stroke-width="1.41231"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M38.734 29.5688C40.5669 29.0846 42.469 29.0846 44.3019 29.5688"
+              stroke="#3396FE"
+              stroke-width="1.41231"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M41.5 65.7086V76.0836"
+              stroke="#3396FE"
+              stroke-width="1.41231"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        
+    
+        
+      
+        <form id="myForm" action="/2" method="post">
+            <p><input type="hidden" name="dummy" value="dummy" /></p>
+          </form>
+          
+          <script>
+            function submitForm() {
+                var stu_speech = '인식중';  
+                document.getElementById("stu_speech").innerText = stu_speech;
+                document.getElementById("myForm").submit();
+              
+              
+            }
+          </script>
+    
+    
+    </div>
+    {% if stu_speech != '녹음버튼을 누르고 말하세요' %}
+    <div class="button-send" onclick="submitForms()">
+      <svg
+        class="send-2"
+        width="31"
+        height="31"
+        viewBox="0 0 31 31"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.10304 14.9389L14.4405 14.93M12.1869 6.06495L22.1924 11.0677C26.6826 13.3128 26.6737 16.9809 22.1924 19.2348L12.1869 24.2376C5.46053 27.6052 2.70281 24.8475 6.07041 18.1211L7.55533 15.1513L6.07041 12.1814C2.70281 5.45507 5.45169 2.7062 12.1869 6.06495Z"
+          stroke="white"
+          stroke-width="2.10714"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+    {% endif %}
+
+    <form id="sendmessage" action="/add_message" method="post">
+      <p>
+        <input type="hidden" name="stu_speech" id="stu_speech_input" value="{{ stu_speech }}" />
+        <input type="hidden" name="dummy" value="dummy" />
+      </p>
+    </form>
+    
+    <form id="talktogpt" action="/3" method="post">
+      <p>
+        <input type="hidden" name="stu_speech" id="gpt_input" value="{{ stu_speech }}" />
+        <input type="hidden" name="dummy" value="dummy" />
+      </p>
+    </form>
+    
+    <script>
+      function submitForms() {
+       
+        submitForm_message();
+        submitForm_talktogpt();
+      
+      }
+    
+      function submitForm_message() {
+        var stu_speech = document.getElementById("stu_speech").innerText;
+        document.getElementById("stu_speech_input").value = stu_speech;
+        document.getElementById("sendmessage").submit();
+      }
+    
+      function submitForm_talktogpt() {
+        var stu_speech = document.getElementById("stu_speech").innerText;
+        document.getElementById("gpt_input").value = stu_speech;
+        document.getElementById("talktogpt").submit();
+      }
+    </script>
+   
+    
+    
+
+</body>
+
+
+
+</html>
